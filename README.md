@@ -26,6 +26,7 @@ const lazy = new Lazy("content");
 lazy.lazy("src")
 ```
 ### Tip
+Css
 ``` css
 /* Hide images if not src attribute */
 img:not([src]){ visibility:hidden }
