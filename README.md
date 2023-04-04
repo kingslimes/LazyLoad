@@ -27,6 +27,6 @@ lazy.lazy("src")
 ```
 ### Tip
 ``` css
-Hide images if not src attribute
+/* Hide images if not src attribute */
 img:not([src]){ visibility:hidden }
 ```
