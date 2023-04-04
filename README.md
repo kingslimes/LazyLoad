@@ -25,3 +25,8 @@ const lazy = new Lazy("content");
 // Dataset name example ( data-src )
 lazy.lazy("src")
 ```
+### Tip
+``` css
+Hide images if not src attribute
+img:not([src]){ visibility:hidden }
+```
